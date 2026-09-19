@@ -1,11 +1,6 @@
 # Degauss
 
-A momentary RGB-split glitch over the whole page. At a random interval the screen splits into red, green and
-blue copies offset by a few pixels, then snaps back. One vanilla JS file, no dependencies, no build step.
-
-The effect is an SVG filter toggled on the `<html>` element, so it never touches layout, scrolling, focus,
-clicks or the accessibility tree. It does nothing when the user has "reduce motion" enabled and pauses while
-the tab is hidden.
+Add a retro "degauss" effect to every page on your site. Make it subtle enough and your site visitors will question reality. Because why not.
 
 ![A page splitting into offset red, green and blue copies for a moment, then snapping back](screen-recording.gif)
 
